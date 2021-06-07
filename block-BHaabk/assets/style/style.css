@@ -1,0 +1,138 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1.5%
+}
+.clearfix::before, .clearfix::after{
+    content:"";
+    display: table;
+}
+.clearfix::after{
+    clear: both;
+}
+.header{
+	background-color: blueviolet;
+}
+.logo{
+	float: left;
+	width: 45%;
+	margin-right: 5%;
+}
+.link-container{
+	float: right;
+	width: 45%;
+	margin-left: 5%;
+	text-align: right;
+}
+.logo img{
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+}
+.link-container a{
+	color: white;
+	font-size: 32px;
+	line-height: 64px;
+	margin-left: 10px;
+	text-decoration: none;
+	margin-top: 10px;
+}
+main{
+	background-color: violet;
+}
+.article{
+	display: flex;
+	justify-content: space-between;
+}
+.column{
+	width: 500px;
+}
+.column img{
+	height: 240px;
+	width: 360px;
+	border-radius: 5%;
+}
+.column h1{
+	color: aqua;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 24px 0;
+}
+.column p{
+	color: aqua;
+	font-size: 16px;
+	line-height: 1.7;
+	margin: 24px 0;
+}
+.col img{
+	height: 240px;
+	width: 360px;
+	border-radius: 5%;
+}
+.gallery{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-content: space-between;
+}
+.col{
+	margin: 24px 0;
+}
+.footer{
+	background-color: blue;
+}
+.footer a{
+	color: white;
+	font-weight: 300;
+	text-decoration: none;
+	margin-right: 20px;
+	font-size: 8px;
+}
