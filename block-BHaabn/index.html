@@ -1,0 +1,64 @@
+<!-- 
+- Create a gallery using flexbox according to the layout shown below.
+
+![Flex Shrink Property](https://raw.githubusercontent.com/suraj122/AC-STYLE-images/master/flexbox/ex-1.png)
+
+- Using CSS resets is necessary.
+- Use semantic tags and keep the nesting and indentation proper.
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/style/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="container flex">
+                <div class="image-container">
+                    <img class="brand"src="assets/media/logo.jpeg" alt="altcampus">
+                </div>
+                <nav class="link-container">
+                    <a href="#">HOME</a>
+                    <a  class="gal" href="#">GALLERY</a>
+                    <a href="#">ABOUT</a>
+                </nav>
+            </div>
+        </header>
+        <main class="main container">
+            <h1>GALLERY</h1>
+            <div class="flex">
+                <div class="col">
+                    <img src="assets/media/01.png" alt="Canvas">
+                </div>
+                <div class="col">
+                    <img src="assets/media/02.png" alt="Gallery">
+                </div>
+                <div class="col">
+                    <img src="assets/media/03.png" alt="Art-gal">
+                </div>
+                <div class="col">
+                    <img src="assets/media/04.png" alt="Gal-girl">
+                </div>
+                <div class="col">
+                    <img src="assets/media/05.png" alt="Paintings">
+                </div>
+                <div class="col">
+                    <img src="assets/media/06.png" alt="modern-art">
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="container flex">
+                <div class="copywright">
+                    <span>&#169AltCampus</span> 
+                </div>
+                <div class="socialmedia-container">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
