@@ -6,3 +6,81 @@
 - Using CSS resets is necessary.
 - Use semantic tags and keep the nesting and indentation proper. 
 -->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="assets/style/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+       <header class="header">
+           <div class="container outer-flex">
+                <div class="brand-container">
+                    <img src="assets/media/icons/logo.jpeg" alt="logo">
+                </div>
+                <div class="profile-container flex">
+                    <div class="icon">
+                        <img src="assets/media/icons/bell.svg" alt="Bell">
+                    </div>
+                    <div class="icon">
+                        <h2>Sarah Jone</h2>
+                    </div>
+                    <div class="icon">
+                        <img src="assets/media/icons/user.svg" alt="User">
+                    </div>
+                </div>
+           </div>
+       </header>
+       <main class="main container">
+           <aside class="aside">
+               <div class="box-1">
+                    <div class="navbar">
+                        <img src="assets/media/icons/dashboard.svg" alt="dashboard">
+                        <a href="#">Dashboard</a>
+                    </div>
+                    <div class="navbar article-tab">
+                        <img src="assets/media/icons/article.svg" alt="Articles">
+                        <a href="#">Articles</a>
+                    </div>
+                    <div class="navbar">
+                        <img src="assets/media/icons/analytics.svg" alt="Analytics">
+                        <a href="#">Analytics</a>
+                    </div>
+                    <div class="navbar">
+                        <img src="assets/media/icons/inbox.svg" alt="Inbox">
+                        <a href="#">Inbox</a>
+                    </div>
+                    <div class="navbar">
+                        <img src="assets/media/icons/setting.svg" alt="Settings">
+                        <a href="#">Settings</a>
+                    </div>
+               </div>
+               <div class="navbar logout-tab">
+                    <img src="assets/media/icons/log-out.svg" alt="Log-out">
+                    <a href="#">Log Out</a>
+               </div>
+           </aside>
+           <article class="article">
+               <img src="assets/media/01.png" alt="gallery">
+               <h1>Why are we doing AltCampus?</h1>
+               <p>Altcampus is an alternative to college that you wish existed. Currently we are offering an in-house, 6 month program to train people in quality software development, where they don't have to pay anything unlit they are hired.</p>
+               <p>We live in the world of digital skills. These skills are always evolving and so is their demand. Students/Professionals who are not responsive for the endeavor/development in the industry demands, interms of skills, will have a hard time surviving, well atleast flourishing.</p>
+               <div class="button">
+                   <a href="#">Read More</a>
+               </div>
+           </article>
+       </main>
+       <footer class="footer">
+            <div class="container flex">
+                <div class="copyright">
+                    <span>&#169AltCampus</span>
+                </div>
+                <div class="socialmedia-container">
+                    <a href="#" class="fa fa-facebook"></a>
+                    <a href="#" class="fa fa-twitter"></a>
+                </div>
+            </div>
+       </footer>
+    </body>
+</html>
